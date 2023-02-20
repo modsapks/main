@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    
+}
+.center{
+    text-align: center;
+}
+.t{
+    color: #eaeaff;
+    font-size: 103%;
+}
+.st{
+    color: #D74CB4;
+    font-size: 110%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+#show_ohter{
+    width: 100%;
+}
+.ohter_e{
+    border: 1px solid white;
+}
+img{
+    border-radius: 5px;
+}
+#Db{
+    background-color:#ffffea;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{text-decoration: none;}
