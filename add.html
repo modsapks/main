@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add mod game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="center">
+        <form action="./post.php" method="post" enctype= "multipart/form-data" >
+            <input type="text" required placeholder="Game name" name="name" id=""><br><br>
+            <textarea placeholder="discprition" name="des" required cols="20" rows="10"></textarea><br><br>
+           <input type="file" name="image" required><br><br>
+           <input type="url" placeholder="url" name="url" id="" required>
+           <input type="submit" placeholder="url" value="Submit" required><br>
+           
+        </form>
+        
+    </div>
+    
+</body>
+</html>
